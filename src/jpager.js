@@ -1,6 +1,6 @@
 //
-// JSREBUCK 2018
-// v.06
+// JSREBUCK 2018-2020
+// v.06.2
 // 
 // setup: $('#this').jpager({options key: options val});
 // NOTE: common options are: item_name (class of items in list), num_per_page (amount) current (page num to start on), 
