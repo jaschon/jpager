@@ -1,20 +1,43 @@
 # JPAGER
 
+**Oh no, more Jquery pagination!!**
+
 ## Setup
 
-setup: $('#this').jpager({options key: options val});
+```
+$('#this').jpager({options key: options val});
+```
 
-*NOTE:* common options are: item_name (class of items in list), num_per_page (amount) current (page num to start on), 
-class options are: pager_group_class, pager_item_class, pager_link_class, pager_class
-text options are: pager_prev_text, pager_next_text
+### General Options
 
-runnings public functions:  $("#this").data('jpager').go(page_num);
-*NOTE:* functions are: go(page_num), next(), prev() and find('.class_name')
+- num_per_page (amount) current (page num to start on), 
+- item_name (class of items in list)
 
-## Find
+#### Class Options
 
-find an item with option: $('#this').jpager({find: '.class_name'}); *** REMEMBER to add dot! ***
-find an item with function call: $("#this").data('jpager').find('.class_name');  *** REMEMBER to add dot! ***
+- pager_group_class 
+- pager_item_class
+- pager_link_class
+- pager_class
 
-*NOTE:* also matches any jquery pattern (tag, id, class...)
+#### Text Options
+
+- pager_prev_text
+- pager_next_text
+
+### Functions
+
+- go(page_num)
+- next()
+- prev() 
+- find('.class_name')
+
+### Examples
+
+- go to a page: $("#this").data('jpager').go(page_num);
+
+- find an item with option: $('#this').jpager({find: '.class_name'}); 
+- find an item with function call: $("#this").data('jpager').find('.class_name'); 
+
+*NOTE:* Find and Class options use jquery patterns (tag, id, class...)
 
