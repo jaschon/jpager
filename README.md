@@ -1,6 +1,6 @@
 # JPAGER
 
-**Oh no, more Jquery pagination!!**
+**Oh no, another Jquery pagination plugin!**
 
 ## Setup
 
